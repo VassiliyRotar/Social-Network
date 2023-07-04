@@ -1,8 +1,10 @@
 
 
 .header {
-    grid-area: h;
-background-color: rgba(38, 126, 226, 0.5);
+grid-area: h;
+background-color: #202020;
+border-radius: 20px;
+ 
     } 
 
     .header img {

@@ -1,20 +1,16 @@
 import React from 'react'  /* Если что удалить */
 import s from './Profile.module.css'
+import ProfileInfo from './ProfileInfo/ProfileInfo'
 import MyPosts from './MyPosts/MyPosts'
-
 
 const Profile = () => {
   
-    return  <div>
+    return  (
     <div>
-      <img src='https://www.amadey.voyage/foto/1/8391.jpg'></img>
-      </div>
-      <div>
-        ava + description
-      </div>
-     <MyPosts /> 
+    <ProfileInfo />
+   <MyPosts />
     </div>
-
+)
 }
-
+ 
 export default Profile

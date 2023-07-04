@@ -14,12 +14,18 @@ list-style-type: georgian;
 
     grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
-  grid-gap: 10px;
+   grid-gap: 10px;
+}
+
+
+h3 {
+ margin: 0px;
 }
 
 .app-wrapper-content {
   grid-area: c;
-  background-color: rgba(38, 126, 226, 0.5); 
+  background-color: #202020;
+  border-radius: 20px;
   }
 
 

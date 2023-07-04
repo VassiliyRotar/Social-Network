@@ -1,0 +1,63 @@
+.postsBlock {
+ padding: 2rem 2rem 0rem 2rem;
+}
+
+.addPostForm {
+    max-width: 400px;
+    background-color: #1e1c1c;
+    box-shadow: 0 15px 25px #000000;
+    border-radius: 5px;
+    padding: 1.5rem 2rem;
+    margin: 2rem 0rem;
+}
+
+
+
+.posts {
+margin-top: 2rem;
+}
+
+.addPostArea {
+    display: flex;
+    align-items: flex-end;
+}
+
+.addPostTextarea {
+    display: block;
+    flex-grow: 1;
+    height: 26px;
+    overflow: hidden;
+    border: none;
+    background: transparent;
+    resize: none;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: #fff;
+    outline: none;
+}
+
+.button {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0.5em 0.9em;
+    min-width: 100px;
+    border: 1px solid #8D8D8E;
+    border-radius: 1.8em;
+    cursor: pointer;
+    background: none;
+    font-family: inherit;
+    line-height: 1.1;
+    color: #232222;
+    background-color: #d0c45a;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color .3s linear,color .4s linear,box-shadow .3s linear,border-color .3s linear;
+    outline: none;
+
+}
+
+.button:hover {
+    color: rgb(5, 5, 6);
+    background-color: #e6d329;
+    }
